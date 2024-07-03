@@ -6,7 +6,10 @@ export default function Header () {
     return (
         <header className="py-6">
             <Box>
-                <HeadingTex />
+                <HeadingTex 
+                    title={'App - crud - NextJs'} 
+                    description={'Aprendiendo Next-serverActions'} 
+                />
             </Box>
         </header>
     )
